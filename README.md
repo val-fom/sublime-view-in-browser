@@ -9,18 +9,29 @@ By default the keystroke assigned to this plugin is *CTRL + ALT + V*.
 Using the Sublime Text Package Control plugin (http://wbond.net/sublime_packages/package_control) press *CTRL + SHIFT + P* and find **Package Control: Install Package** and press *Enter*. Find this plugin in the list by name **View In Browser**.
 
 ## Configuring Browsers
-By default this plugin will open files in Firefox. You can configure it to open
+By default this plugin will open files in your default browser. You can configure it to open
 using another browser of your choice. To do this, choose *Settings - User* from *Preferences > Package Settings > View In Browser*.
+
+For example, to set Chrome as your default browser:
+
+```JSON
+{
+  "browser": "chrome"
+}
+```
 
 The browser you wish to use to open files is set in the key named **browser**. The following is a list of browsers configured for use out of the box.
 
-* Firefox - Mac OS, Linux, Windows
-* Chrome - Mac OS, Linux, Windows
-* Chrome64 - Windows
-* Yandex - Windows
-* Safari - Mac OS
-* Internet Explorer - Windows
-* Chromium - Linux
+|Browser|Value|Supported OS|
+|---|---|---|
+|Default|`default`|macOS, Linux, Windows|
+|Firefox|`firefox`|macOS, Linux, Windows|
+|Chrome|`chrome`|macOS, Linux, Windows|
+|Chrome64|`chrome64`|Windows|
+|Yandex|`yandex`|Windows|
+|Safari|`safari`|macOS|
+|Internet Explorer|`iexplore`|Windows|
+|Chromium|`chromium`|macOS, Linux|
 
 ## Other Browsers
 View In Browser also provides key bindings to open your current view in browser other than your **browser** setting. Below is a listing of the keys and what browser open with those key bindings.
@@ -91,6 +102,8 @@ Now when you activate View In Browser your file will open with the HTTP protocol
 
 ## Change History
 
+* 05/09/2017:
+  * Add support for default browser
 * 03/11/2016:
   * Fix issue where parenthesis in paths would cause a failure to load. Solves #52
 * 10/06/2014:
