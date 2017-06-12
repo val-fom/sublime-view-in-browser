@@ -5,14 +5,14 @@
 			"firefox": "firefox -new-tab",
 			"chrome": "google-chrome",
 			"chrome64": "google-chrome",
-			"chromium": "chromium"
+			"chromium": "chromium-browser"
 		},
 		"linux2": {
 			"default": "xdg-open",
 			"firefox": "firefox -new-tab",
 			"chrome": "google-chrome",
 			"chrome64": "google-chrome",
-			"chromium": "chromium"
+			"chromium": "chromium-browser"
 		},
 		"darwin": {
 			"default": "open",
