@@ -21,6 +21,7 @@
 			"chrome": "open -a \"/Applications/Google Chrome.app\"",
 			"chrome64": "open -a \"/Applications/Google Chrome.app\"",
 			"chromium": "open -a \"/Applications/Chromium.app\"",
+			"canary": "open -a \"/Applications/Google Chrome Canary.app\"",
 			"yandex": "open -a \"/Applications/Yandex.app\""
 		}
 	},
