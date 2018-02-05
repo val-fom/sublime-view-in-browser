@@ -27,6 +27,7 @@ The browser you wish to use to open files is set in the key named **browser**. T
 |Default|`default`|macOS, Linux, Windows|
 |Firefox|`firefox`|macOS, Linux, Windows|
 |Chrome|`chrome`|macOS, Linux, Windows|
+|Chrome Canary|`canary`|macOS|
 |Chrome64|`chrome64`|Windows|
 |Yandex|`yandex`|Windows|
 |Safari|`safari`|macOS|
